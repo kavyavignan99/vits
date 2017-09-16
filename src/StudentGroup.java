@@ -186,9 +186,9 @@ public class StudentGroup implements StudentArrayOperation {
 		for(int i=0;i<students.length;i++) if(students[i].getBirthDate()getClass().getAge() == age) {
 			st[count] = students[i];
 			count++;
-		}
+		}*/
 		return null;
-	}*/
+	}
 
 	@Override
 	public Student[] getStudentsWithMaxAvgMark() {
