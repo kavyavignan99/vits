@@ -64,11 +64,7 @@ public class StudentGroup implements StudentArrayOperation {
 		//Still to be Reviewed
 		if (student == null ) throw new IllegalArgumentException();
 		else {
-			ArrayList <Student>at = new ArrayList<Student>();
-			at = (ArrayList<Student>) Arrays.asList(students);
-			at.add(0, student);
-			students = null;
-			students = (Student[]) at.toArray();
+			this.students[0]=student;
 
 			/*
 			Student []st = new Student[students.length+1];
